@@ -10,7 +10,7 @@ namespace StarWars
             : base(provider)
         {
             Query = provider.GetRequiredService<StarWarsQuery>();
-            Mutation = provider.GetRequiredService<StarWarsMutation>();
+            //Mutation = provider.GetRequiredService<StarWarsMutation>();
         }
     }
 }
